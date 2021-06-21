@@ -503,34 +503,24 @@ body {
 .notable-1 {
     top: 30%;
     left: 5.5%;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 .notable-2 {
-
-    /* width: 100%; */
     width: 72%;
-    /* top: 10%; */
-    /* left: 33.5%; */
     position: relative;
-    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
-
-
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .notable-3 {
     width: 72%;
-    /* width: 100%; */
-    /* top: 49%; */
-    /* left: 43%; */
     position: relative;
     left: 30%;
     margin-top: 1.2rem;
-    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
-
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
 .notable-4 {
     top: 25%;
     left: 69.5%;
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
 
 }
 .notable-section-header {
@@ -542,6 +532,7 @@ body {
     align-items: center;
     padding: 1rem;
     padding-left: 1.5rem;
+    color: #1e272e;
 }
 .notable-section-body {
     width: 100%;
@@ -551,6 +542,7 @@ body {
     padding: 1.5rem;
     letter-spacing: 0.5px;
     word-spacing: 1px;
+    color: #3d3d3d;
 }
 .notable-section-body > p {
     margin: 0;
@@ -688,10 +680,10 @@ body {
 }
 @media only screen and (max-width: 426px) {
     .header-name {
-        margin-left: 0.5rem;
+        margin-left: 1.5rem;
     }
     .navigators-cont {
-        margin-left: 0.5rem;
+        margin-left: 0.8rem;
         gap: 0rem;
     }
     .navigator {
@@ -705,6 +697,7 @@ body {
     }
     .excel-project-box {
         margin-left: 0.5rem;
+        margin-right: 0.5rem;
         flex-direction: column;
     }
     .programmer-img-container {
@@ -713,21 +706,27 @@ body {
     .inner-project-section-cont {
         width: 100%;
     }
+    .img-project-section-cont {
+        width: 100%;
+    }
     .treehouse-project {
         width: 90%;
         margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        width: 95%;
     }
     .combined-project-cont {
         flex-direction: column;
     }
     .todo-project {
         margin-left: 0.5rem;
-        width: 100%;
+        margin-right: 0.5rem;
+        width: 95%;
     }
     .jobready-project {
         margin-left: 0.5rem;
-
-        width: 100%;
+        margin-right: 0.5rem;
+        width: 95%;
     }
     .notables-display-cont {
         display: flex;
@@ -742,12 +741,12 @@ body {
         display: flex;
         width: 90%;
         left: calc( ( 100% - 90% ) / 2 );
-        gap: 2rem;
+        gap: 0rem;
         flex-direction: column;
         margin-top: 2rem;
     }
     .notable-3 {
-        margin-top: 0;
+        margin-top: 2rem;
         left: 0%;
         width: 100%;
     }
@@ -776,6 +775,8 @@ body {
     .project-desc-cont {
         font-size: 0.9rem;
         word-spacing: 1.5px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .first-letter {
         font-size: 1.1rem;
@@ -784,11 +785,11 @@ body {
         font-size: large;
     }
     .edu-name {
-        padding-left: 0.5rem;
+        padding-left: 1rem;
         font-size: large;
     }
     .tag-box {
-        padding-left: 0.8rem;
+        padding-left: 0.5rem;
         font-size: 0.7rem;
         gap: 0rem;
     }
