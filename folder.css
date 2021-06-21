@@ -493,9 +493,7 @@ body {
     margin-bottom: 2rem;
 }
 .notable {
-    /* height: 17rem; */
     width: 26%;
-    min-height: 50%;
     /* background-color: blueviolet; */
     position: absolute;
     color: #19162B;
@@ -503,24 +501,27 @@ body {
 .notable-1 {
     top: 30%;
     left: 5.5%;
-    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
 }
 .notable-2 {
     width: 72%;
     position: relative;
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+
 }
 .notable-3 {
     width: 72%;
     position: relative;
     left: 30%;
     margin-top: 1.2rem;
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+
+
 }
 .notable-4 {
     top: 25%;
     left: 69.5%;
-    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
 
 }
 .notable-section-header {
@@ -569,19 +570,41 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60vh;
+}
+.contact-img-cont {
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.contact-programmer {
+    width: 100%;
+    height: 100%;
+}
+.contact-description-cont {
+    width: 60%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Cantora One', sans-serif;
 }
 .contacts-links-box {
-    width: 100%;
-    height: 4rem;
-    margin-top: 2rem;
-    /* background-color: yellow; */
+    width: 80%;
+    /* height: 80%; */
     /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+}
+.icons-cont {
+    display: flex;
+    margin: 2rem;
 }
 .contact-icon {
+    margin: 1.5rem;
     width: 2.5rem;
     height: 2.5rem;
     transition: transform 0.2s ease-out;
@@ -676,6 +699,9 @@ body {
         position: relative;
         left: 0%;
         left: calc( ( 100% - 45% ) / 2 );
+    }
+    .contacts-links-box {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 426px) {
@@ -814,7 +840,15 @@ body {
         font-size: 2rem;
     }
     .contacts-links-box {
-        gap: 0rem;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-img-cont {
+        width: 100%;
+    }
+    .contact-description-cont {
+        width: 100%;
+        font-size: x-large;
     }
     .contact-icon {
         margin: 1rem;
