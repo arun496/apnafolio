@@ -428,10 +428,10 @@ body {
     position: absolute;
 }
 .codechat-hover {
-    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
 }
 .reelgraphy-hover {
-    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
 }
 .treehouse-hover {
     background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
@@ -637,6 +637,38 @@ body {
     height: 2.3rem;
 }
 
+
+.tech-animating-section {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.tech-animating-icons {
+    height: 40vh;
+    width: 100vw;
+    animation-name: tech-icons-animation;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tech-animating-icons > * {
+    height: 20vh;
+    width: 10vw;
+}
+
+@keyframes tech-icons-animation {
+    from {
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(120vw);
+    }
+}
 
 
 
