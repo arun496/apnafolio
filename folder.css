@@ -698,6 +698,12 @@ body {
     .inner-project-section-cont {
         width: 100%;
     }
+    .codechat-project {
+        width: 95%;
+    }
+    .reelgraphy-project {
+        width: 95%;
+    }
     .treehouse-project {
         width: 90%;
     }
@@ -781,6 +787,16 @@ body {
     }
     .img-project-section-cont {
         width: 100%;
+    }
+    .codechat-project {
+        width: 95%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .reelgraphy-project {
+        width: 95%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
     .treehouse-project {
         width: 90%;
