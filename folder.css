@@ -639,13 +639,13 @@ body {
 
 
 .tech-animating-section {
-    height: 60vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     overflow: hidden;
 }
 .tech-animating-icons {
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
     animation-name: tech-icons-animation;
     animation-duration: 30s;
@@ -657,6 +657,7 @@ body {
     justify-content: space-between;
 }
 .tech-animating-icons > * {
+    display: block;
     height: 20vh;
     width: 10vw;
 }
@@ -683,6 +684,13 @@ body {
     }
 }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+    .tech-animating-section {
+        height: 40vh;
+    }
+    .tech-animating-icons > * {
+        width: 13vw;
+        height: 15vh;
+    }
     .edu-flex-cont {
         flex-direction: column-reverse;
     }
@@ -758,6 +766,16 @@ body {
     }
 }
 @media only screen and (max-width: 426px) {
+    .tech-animating-section {
+        height: 23vh;
+    }
+    .tech-animating-icons {
+        height: 15vh;
+    }
+    .tech-animating-icons > * {
+        width: 12vw;
+        height: 10vh;
+    }
     .header-name {
         margin-left: 1.5rem;
     }
