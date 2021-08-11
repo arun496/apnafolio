@@ -253,6 +253,15 @@ body {
     width: 40%;
     position: relative;
 }
+.codechat-project {
+    width: 55%;
+    position: relative;
+}
+.reelgraphy-project {
+    /* background-color: violet; */
+    width: 40%;
+    position: relative;
+}
 
 
 /* project css */
@@ -322,7 +331,7 @@ body {
     height: 100%;
     /* background-color: #96fbc4; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;    
 }
 .icon-list-pop-out {
@@ -386,16 +395,15 @@ body {
     }
 }
 
-.github-icon {
-    width: 2.5rem;
+.live-project-section {
+    width: 5rem;
     height: 2.5rem;
     /* background-color: lightblue; */
-    justify-self: flex-end;
     position: absolute;
     right: 5%;
     transition: transform 0.2s ease-out;
 }
-.github-icon:hover {
+.live-project-section > *:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -404,11 +412,11 @@ body {
     width: 2.5rem;
     height: 2.5rem;
 }
-.tech-logo {
+.tech-logo-big {
     width: 2.5rem;
     height: 2.5rem;
 }
-.command-line-logo {
+.tech-logo-small {
     width: 2rem;
     height: 2rem;
 }
@@ -418,6 +426,12 @@ body {
     right: 0;
     z-index: -1;
     position: absolute;
+}
+.codechat-hover {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.reelgraphy-hover {
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
 }
 .treehouse-hover {
     background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
@@ -431,6 +445,7 @@ body {
 .jobready-hover {
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
+
 .bg-animation-in {
     animation-name: project-bg-change-in;
     animation-duration: 0.5s;
