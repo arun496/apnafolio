@@ -34,7 +34,7 @@ for (let i = 0; i < allTechStackCont.length; i++) {
 }
 
 let gitProjectLinks = ["https://github.com/arun496/codechat", "https://github.com/arun496/pab_pep/tree/main/3_React/4_React_Reels/reels", "https://github.com/arun496/pepcam", "https://github.com/arun496/my-pepboard", "https://github.com/arun496/TreeHouse", "https://arun496.github.io/excel_pep_yt/", "https://github.com/arun496/todostack", "https://github.com/arun496/pab_pep/tree/main/1_JS/5_JobReady"];
-let liveProjectLinks = ["https://codechat-76a4a.web.app", "https://login-auth-b8e4e.web.app/", "https://arun496.github.io/pepcam/", "https://my-pepboard.herokuapp.com/", "https://arun496.github.io/TreeHouse/", "https://arun496.github.io/excel_pep_yt/", "https://arun496.github.io/todostack/"];
+let liveProjectLinks = ["https://codechat-8f439.web.app/", "https://login-auth-b8e4e.web.app/", "https://arun496.github.io/pepcam/", "https://my-pepboard.herokuapp.com/", "https://arun496.github.io/TreeHouse/", "https://arun496.github.io/excel_pep_yt/", "https://arun496.github.io/todostack/"];
 let allContactLinks = ["https://github.com/arun496", "https://www.linkedin.com/in/arun-m496/", "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=arun496.in@gmail.com", "https://drive.google.com/file/d/1KzMPGB8sfSanaJfa9MaVNCrEBo3f0j8T/view?usp=sharing"];
 
 let allGitIcons = document.querySelectorAll(".git-icon");
